@@ -21,14 +21,14 @@
         "clear": false
       },
       "problemMatcher": [
-        "$ts-webpack"
+        "$tsc"
       ],
       "isBackground": true
     },
     {
       "type": "npm",
       "script": "install",
-      "group": "clean",
+      "group": "none",
       "problemMatcher": [],
       "label": "npm: install",
       "detail": "install dependencies from package"
