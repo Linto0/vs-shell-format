@@ -20,8 +20,18 @@
         "showReuseMessage": true,
         "clear": false
       },
-      "problemMatcher": ["$ts-webpack"],
+      "problemMatcher": [
+        "$ts-webpack"
+      ],
       "isBackground": true
+    },
+    {
+      "type": "npm",
+      "script": "install",
+      "group": "clean",
+      "problemMatcher": [],
+      "label": "npm: install",
+      "detail": "install dependencies from package"
     }
   ]
 }
